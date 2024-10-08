@@ -1,6 +1,6 @@
 package br.com.alura.screenmatch.modelo;
 
-public class Filme {
+public class Titulo {
 
     private  String nome ;
     private  int anoDeLancamento;
@@ -60,7 +60,7 @@ public class Filme {
 
     public void exibeFichaTecnica(){
         System.out.println("nome do filme é : " + nome);
-        System.out.println("Ano do lançamento do br.com.alura.screenmatch.modelo.Filme é: " + anoDeLancamento);
+        System.out.println("Ano do lançamento do Filme é: " + anoDeLancamento);
 
     }
 
