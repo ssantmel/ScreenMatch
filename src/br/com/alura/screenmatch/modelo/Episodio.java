@@ -4,7 +4,7 @@ import br.com.alura.screenmatch.calculo.Classificavel;
 
 public class Episodio implements Classificavel {
 
-    private int numero ;
+    private int numero;
     private String nome;
     private Serie serie;
     private int totalAvaliacoes;
@@ -53,10 +53,10 @@ public class Episodio implements Classificavel {
 
     @Override
     public int getClassificacao() {
-        if(totalAvaliacoes > 100){
+        if (totalAvaliacoes > 100) {
             return 4;
-        }else{
-            return  2;
+        } else {
+            return 2;
         }
     }
 }
